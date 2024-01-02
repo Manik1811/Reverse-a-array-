@@ -26,7 +26,7 @@ int main() {
        scanf("%d",&rows);
    //  Code for Reverse triangle 
      for(i=1;i<=rows;i++){
-      for(j=rows;j<=rows-i-1;j--){
+      for(j=1;j<=rows-i+1;j++){ 
          printf("*");
          }
        printf("\n");
